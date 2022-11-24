@@ -1,19 +1,9 @@
-
+import Layout from "../components/layout/Layout";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-red-400 grid grid-cols-3 grid"
-    
-    >
-      <div className=''>
-        1
-      </div>
-      <div className=''>
-        1
-      </div>
-      <div className=''>
-        1
-      </div>
-    </div>
+    <Layout>
+      <h1>Home</h1>
+    </Layout>
   )
 }
